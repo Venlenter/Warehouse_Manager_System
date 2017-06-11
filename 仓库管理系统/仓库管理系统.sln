@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "仓库管理系统", "仓库管理系统\仓库管理系统.csproj", "{3C612D5B-49A9-45C3-9A42-B006B3854CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C612D5B-49A9-45C3-9A42-B006B3854CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C612D5B-49A9-45C3-9A42-B006B3854CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C612D5B-49A9-45C3-9A42-B006B3854CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C612D5B-49A9-45C3-9A42-B006B3854CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

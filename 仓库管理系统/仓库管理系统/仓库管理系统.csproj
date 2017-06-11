@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C612D5B-49A9-45C3-9A42-B006B3854CAD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>仓库管理系统</RootNamespace>
+    <AssemblyName>仓库管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admform1.Designer.cs">
+      <DependentUpon>admform1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admform3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admform3.Designer.cs">
+      <DependentUpon>admform3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="daytable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="daytable.Designer.cs">
+      <DependentUpon>daytable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepotDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DepotDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homeform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homeform1.Designer.cs">
+      <DependentUpon>homeform1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homeform2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homeform2.Designer.cs">
+      <DependentUpon>homeform2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="homeform3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="homeform3.Designer.cs">
+      <DependentUpon>homeform3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="partadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="partadd.Designer.cs">
+      <DependentUpon>partadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="partform1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="partform1.Designer.cs">
+      <DependentUpon>partform1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="partform2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="partform2.Designer.cs">
+      <DependentUpon>partform2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="partform3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="partform3.Designer.cs">
+      <DependentUpon>partform3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="partout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="partout.Designer.cs">
+      <DependentUpon>partout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="admform2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admform2.Designer.cs">
+      <DependentUpon>admform2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admform1.resx">
+      <DependentUpon>admform1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admform3.resx">
+      <DependentUpon>admform3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="daytable.resx">
+      <DependentUpon>daytable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homeform1.resx">
+      <DependentUpon>homeform1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homeform2.resx">
+      <DependentUpon>homeform2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="homeform3.resx">
+      <DependentUpon>homeform3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="partadd.resx">
+      <DependentUpon>partadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="partform1.resx">
+      <DependentUpon>partform1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="partform2.resx">
+      <DependentUpon>partform2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="partform3.resx">
+      <DependentUpon>partform3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="partout.resx">
+      <DependentUpon>partout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admform2.resx">
+      <DependentUpon>admform2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DepotDataSet.xsc">
+      <DependentUpon>DepotDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DepotDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DepotDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DepotDataSet.xss">
+      <DependentUpon>DepotDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登录.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\窗体.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
